@@ -1,0 +1,108 @@
+body{
+    font-family: monospace;
+}
+#main-h1-title{
+    color:black;
+    font-size: 50px;
+    text-align:left;
+    font-weight: bold;
+    display: inline-block;    
+    position: absolute;
+    margin-top: 10px;
+    font-family: Bangers;
+}
+#main-paragrafo-title{
+    color:black;
+    font-size: 15px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 680px;
+}
+#main-title{
+    height: 80px;
+    width: 800px;
+    display: inline-block;
+    position: absolute;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+#nav-servicos{
+    display: inline-block;
+    position: absolute;
+    margin-top: 80px;
+    width: 800px;
+    text-align: center;
+    background-color: goldenrod;
+}
+#nav-servicos ul li{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Bangers;
+}
+#sec-sobrenos{
+    height: 90px;
+    width: 800px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 125px;
+}
+#Section-Dep{
+    width: 800px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 220px;
+}
+#art-dep-a, #art-dep-b, #art-dep-c{
+    display: inline-block;
+    height: 270px;
+    width: 250px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgb(253,253,150)
+}
+.imag-dep{
+    border-radius: 50%;
+}
+main{
+    display: inline-block;
+    position: absolute;
+    margin-top: 550px;
+    width: 800px;
+}
+main section:nth-child(2) article:nth-child(odd), 
+main section:nth-child(3) article:nth-child(even), 
+main section:nth-child(4) article:nth-child(even){
+    background-color: rgb(253,253,150);
+}
+
+#sec-ind-imag{
+    display: inline-block;
+    position: absolute;
+    margin-top: 3955px;
+    width: 800px;
+}
+footer{
+    height: 125px;
+    width: 800px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 4138px;
+    background-color: goldenrod;
+}
+#footer-p1{
+    display: inline-block;
+    vertical-align:top;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Bangers;
+}
+#footer-p2{
+    display: inline-block;
+    margin-left: 410px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Bangers;
+}
